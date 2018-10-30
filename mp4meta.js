@@ -4,7 +4,7 @@ Supports title, album, and artist.
 
 Usage:
 
-  // Create an Mp4 object, passing in an Array of bytes representing the MP4 file.
+  // Create an Mp4Meta object, passing in an Array of bytes representing the MP4 file.
   // setTitle(), setArtist(), and setAlbum() are optional and chainable.
   var myMp4 = new Mp4Meta(songData)
     .setTitle(title)
